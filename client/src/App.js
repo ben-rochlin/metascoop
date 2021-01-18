@@ -3,9 +3,17 @@ import React, { useEffect } from 'react';
 import { useDispatch } from 'react-redux';
 import Router from "./route/routes";
 import './styles.scss'
-import  { BreakpointProvider } from 'react-socks';
+import { BreakpointProvider } from 'react-socks';
 
-// import { fetchCategory } from './actions/newsObjects'
+import { Provider } from 'react-redux';
+import { createStore, applyMiddleware, compose } from 'redux';
+import thunk from 'redux-thunk';
+import reducers from './reducers'
+const store = createStore(reducers, compose(applyMiddleware(thunk)))
+console.log(store.reducers, "HEEER I AM")
+
+
+
 
 
 
@@ -20,10 +28,11 @@ export default function App() {
   return (
     <div>
 
-
-      <BreakpointProvider>
-          <Router />    
-      </BreakpointProvider>
+      <Provider store={store}>
+        <BreakpointProvider>
+          <Router />
+        </BreakpointProvider>
+      </Provider>
 
 
     </div>
