@@ -14,10 +14,6 @@ console.log(store.reducers, "HEEER I AM")
 
 
 
-
-
-
-
 export default function App() {
   const dispatch = useDispatch();
 
