@@ -12,11 +12,12 @@ const app = express()
 require('./middleware/passport.js')
 const authRouter = require('./routes/auth_routes')
 
+app.use(cors())
 
 
 //DB
-const CONNECTION_URL = 'mongodb+srv://Benjamin:Benji1234@mernnews.hfgdh.mongodb.net/<dbname>?retryWrites=true&w=majority'
-mongoose.connect(process.env.DATABASE || CONNECTION_URL, { useNewUrlParser: true, useUnifiedTopology: true, useCreateIndex: true  })
+
+mongoose.connect(process.env.DATABASE_URI || CONNECTION_URL, { useNewUrlParser: true, useUnifiedTopology: true, useCreateIndex: true  })
 .then(() => console.log("Successfully connected to Mongoose Atlas"))
 .catch((error) => console.log(error.message));
 mongoose.set('useFindAndModify', false);
@@ -50,7 +51,6 @@ app.use('/auth', authRouter)
 
 
 const PORT = process.env.PORT || 6000;
-app.use(cors())
 app.listen(PORT, () => console.log(`Server Running on port: ${PORT}`)) 
 
 
