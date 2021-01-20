@@ -6,6 +6,8 @@ https://metascoop-back-end.herokuapp.com/auth/register
 
 https://metascoop-back-end.herokuapp.com/auth/login
 
+orignally forked from: https://github.com/MERN-News-App/metascoop
+
 
 ## Reflection
 
@@ -17,7 +19,9 @@ The backend gave me a lot of trouble, I Was a little bit unfamiliar with tieing 
 
 Project management was tricky, I think there was certainly a skills shortage in our group so it was a hard to delegate tasks out properly, that defintiely slowed down progress. I would like to implement better project management solutions in future and that is definitely an aspect of my personal growth that I will be focusing on.
 
-There was a lot of git source control used, unfortunately this 'origin' repo is no longer associated with the upstream repo it was forked from (as changing the upstream repo from private to public caused the remotes to stop functioning properly), but the git work flow was involved creating feature branches on origin, merging these features to my origin-main branch and making pull requests from upstream-main from origin-main.  
+There was a lot of git source control used, unfortunately this 'origin' repo is no longer associated with the upstream repo it was originally forked from (as changing the upstream repo from private to public caused the remotes to stop functioning properly)(I created a new fork but lost all my branches so I am submitting this repo), MY git work flow was a process of creating feature branches on my (this) origin repo, merging these feature-branches into my origin-main branch and making pull requests from origin-main into upstream main. a pull request history is still viewable on the upstream repo. 
+
+Theres still a lot of work to be done, but I feel far more confident now moving forward as I have learnt a lot during this project. 
 
 ----
 
