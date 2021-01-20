@@ -11,9 +11,9 @@ orignally forked from: https://github.com/MERN-News-App/metascoop
 
 ## Reflection
 
-There is definitelty alot more that needs to be done with this application, I will most certainly be working on it in the future as I actually think it has a lot of potential as a great portfolio piece, so in future implementations I would like to obviously connect the front-end to the back-end and make sure it works as is intended; which includes adding authentication and CRUD actions for the news articles, also the extra bells and whistsles such as the article summarisation feature. I think will first aim for the MVP, and then as my confidence increases I will add extra bells and whistles as I see fit.  
+There is definitelty alot more that needs to be done with this application, I will most certainly be working on it in the future as I think it has a lot of potential to be a great portfolio piece. In future implementations I would like to connect the front-end to the back-end and make sure it works as is intended; which includes adding authentication and CRUD actions for users/aticles ect, I would also like to add the extra bells and whistsles such as the article summarisation feature, but I think I will first aim for the MVP, and then as my confidence and progress moves foward I will add the extra bells and whistles as I see fit.  
 
-Fortunately the front end is now deployed on netlify and the major aspects of design is quite responsive, I'm actually really happy with how the 'feed' content-cards came out, they look really great on mobile and that something that I'm quite proud of (a small win, but a win none the less, which I'll take at this point). The calls to the external news API are working enough for a MVP, there were a few little tweaks and hacks I had to use to get them to work properly. 
+Fortunately the front end is now deployed on netlify and the major aspects of the websites design is responsive, I'm actually really happy with how the 'feed' content-cards came out, they look really great on mobile and that is something that I'm quite proud of (a small win, but a win none the less). The calls to the external news API are working enough for a MVP, there were a few little tweaks and hacks I had to use to get them to work properly. 
 
 The backend gave me a lot of trouble, I Was a little bit unfamiliar with tieing the front-end into the backend which I think made it a lot harder to implement the back end properly, but with some help I was able to get a semi functional backend up and running, in its current state is does not communicate with front end. This will be on the short list for near future features to be implemented.
 
@@ -21,7 +21,7 @@ Project management was tricky, I think there was certainly a skills shortage in 
 
 There was a lot of git source control used, unfortunately this 'origin' repo is no longer associated with the upstream repo it was originally forked from (as changing the upstream repo from private to public caused the remotes to stop functioning properly)(I created a new fork but lost all my branches so I am submitting this repo), MY git work flow was a process of creating feature branches on my (this) origin repo, merging these feature-branches into my origin-main branch and making pull requests from origin-main into upstream main. a pull request history is still viewable on the upstream repo. 
 
-Theres still a lot of work to be done, but I feel far more confident now moving forward as I have learnt a lot during this project. 
+Theres still a lot of work to be done, but I feel far more confident now moving forward as I have learnt a lot during this project and I am excited for future implementations. 
 
 ----
 
